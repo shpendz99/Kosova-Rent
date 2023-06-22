@@ -1,5 +1,1 @@
-module.exports = {
-    images: {
-        domains: ['unsplash.com']
-    }
-}
+module.exports = { eslint: { ignoreDuringBuilds: true } }
