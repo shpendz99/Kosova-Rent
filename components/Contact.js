@@ -11,7 +11,7 @@ function Contact() {
     <div className="bg-gray-#fdfdfd">
       <div className="mx-auto max-w-[75rem] h-3/5 px-1 md:px-3 lg:px-4 ">
         <div className="flex flex-col md:flex h-3/4 py-20 md:py-30 ">
-          <div className="sm:flex mb-10 sm:mb-0 px-12  ">
+          <div className="sm:flex mb-10 sm:mb-0 px-12">
             <div className="sm:w-[50%] sm:mr-10">
               <h4 className="text-[25px] lg:text-[37px] capitalize font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gray-700 via-gray-900 to-black">
                 Na kontaktoni
@@ -19,7 +19,7 @@ function Contact() {
               <p className="text-base text-gray-500">
                 Mos ngurroni të kontaktoni specialistët tanë për të mësuar më
                 shumë rreth makinave dhe çmimeve tona. Ne jemi gjithmonë i
-                gatshëm për t'iu përgjigjur pyetjeve tuaja.
+                gatshëm për t iu përgjigjur pyetjeve tuaja.
               </p>
               <div className="w-full py-8 px-5 mt-10 bg-gray-800 rounded-md shadow-md shadow-gray-600/20 space-y-4 hover:shadow-xl transition duration-300 ease-in-out">
                 <div className="flex items-center ">

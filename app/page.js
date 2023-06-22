@@ -25,7 +25,7 @@ export default async function Home() {
               <SearchBar />
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 max-w-7xl my-6">
                 {cars?.map((car) => (
-                  <CardImages car={car} />
+                  <CardImages car={car} key={car}/>
                 ))}
               </div>
             </div>
