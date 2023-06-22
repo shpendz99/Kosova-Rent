@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 import { Fragment } from "react";
 import { Dialog, Transition } from "@headlessui/react";
-import { XIcon } from "@heroicons/react/solid";
+import { XMarkIcon } from "@heroicons/react/24/solid";
 
 function CarDetails({ isOpen, closeModal, car }) {
   console.log('test')
@@ -40,7 +40,7 @@ function CarDetails({ isOpen, closeModal, car }) {
                     onClick={closeModal}
                     className="absolute top-2 right-2 z-10 w-fit p-2 bg-white rounded-full hover:shadow-md transition-shadow duration-500 ease-in-out"
                   >
-                    <XIcon className="w-6 h-6" />
+                    <XMarkIcon className="w-6 h-6" />
                   </button>
                   <div className="flex-1 flex flex-col gap-3">
                     <div className="relative w-full h-40 bg-pattern bg-cover bg-center rounded-lg">
