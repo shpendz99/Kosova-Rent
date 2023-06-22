@@ -4,8 +4,6 @@ import { useState } from "react";
 import Image from "next/image";
 import cars from "../utils/cars";
 import CarDetails from "../components/CarDetails";
-import Porche from "../public/Porch.jpeg";
-import { AdjustmentsHorizontalIcon } from "@heroicons/react/24/solid";
 
 function CardImages({ car }) {
   const [isOpen, setIsOpen] = useState(false);
